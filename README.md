@@ -11,13 +11,12 @@ A continuación se presenta la estructura del diseño 1, la cual tuvo un peso de
 
 Posteriormente se calcularon las tensiones correspondientes para cada combinación y se graficaron las deformaciones de la estructura. Recordar que las barras fueron graficadas en tonalidades, siendo rojo compresión y azul traccion. Junto a lo anterior se revisó la viabilidad del diseño con la función `chequear_diseño`. El requisito para aprobar el diseño propuesto debía cumplir:
 
+
 ![CodeCogsEqn](https://user-images.githubusercontent.com/43649125/96386731-72363b00-1173-11eb-94fe-dce5133550ff.gif)
 
 A continuación se presentan los resultados del diseño número 1: 
 
-![Gráfica_1_Tensiones_caso_1 4D](https://user-images.githubusercontent.com/43649125/96386670-ffc55b00-1172-11eb-92d4-44ba34eae0b5.PNG)
-
-![Gráfica_1_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96386669-ffc55b00-1172-11eb-901b-e82b571c391b.PNG)
+![Gráfica_1_Tensiones_caso_1 4D](https://user-images.githubusercontent.com/43649125/96386670-ffc55b00-1172-11eb-92d4-44ba34eae0b5.PNG) ![Gráfica_1_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96386669-ffc55b00-1172-11eb-901b-e82b571c391b.PNG)
 
 Se observa que el primer diseño realizado no cumple con los requisitos mínimos de diseño. Este, al no ser un diseño viable, no permitio poder obtener sus factores de utilización correspondientes.
 En un intento por corregir esto, se generó distintos casos en los que se varió uno o mas parametros de la estructura original. Para poder analizar los acmbios que generaban en ella
