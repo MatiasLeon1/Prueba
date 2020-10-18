@@ -1,6 +1,6 @@
 # Informe
 
-### 1. ¿Cuál fue su diseño inicial? ¿Cuánto pesaba? ¿Cómo eran los factores de utilización y las deformaciones?
+## 1. ¿Cuál fue su diseño inicial? ¿Cuánto pesaba? ¿Cómo eran los factores de utilización y las deformaciones?
 
 En primera instancia, debido a la condición que limita el largo de las barras en el vano del puente a solo 6 metros, se decidió crear barras de de `5 [m]` de longitud. Al ser el primer diseño, se utilizó una estructura similar a la de la entrega 4, pero esta no considero las barras diagonales en la base de la estructura.
 El largo de todas las barras se consideró igual, por lo que la altura del puente en primera instancia fue de `H= 4,33 [m]` (*Calculado con el teorema de Pitágoras*). El espesor de las barras se fijó igual para todas y tuvo un valor inicial de  `t= 5 [mm]`.
@@ -16,10 +16,12 @@ Posteriormente se calcularon las tensiones correspondientes para cada combinaci�
 
 A continuación se presentan los resultados del diseño número 1: 
 
-* ![Gráfica_1_Tensiones_caso_1 4D](https://user-images.githubusercontent.com/43649125/96386670-ffc55b00-1172-11eb-92d4-44ba34eae0b5.PNG) 
+* 
+![Gráfica_1_Tensiones_caso_1 4D](https://user-images.githubusercontent.com/43649125/96386670-ffc55b00-1172-11eb-92d4-44ba34eae0b5.PNG) 
 
 
-* ![Gráfica_1_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96386669-ffc55b00-1172-11eb-901b-e82b571c391b.PNG)
+* 
+![Gráfica_1_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96386669-ffc55b00-1172-11eb-901b-e82b571c391b.PNG)
 
 Se observa que el primer diseño realizado no cumple con los requisitos mínimos de diseño. Este, al no ser un diseño viable, no permitio poder obtener sus factores de utilización correspondientes.
 En un intento por corregir esto, se generó distintos casos en los que se varió uno o mas parametros de la estructura original. Para poder analizar los acmbios que generaban en ella
