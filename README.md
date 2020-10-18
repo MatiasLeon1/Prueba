@@ -1,9 +1,9 @@
 ### Prueba
 
 
-| Caso | Radio `[cm]`: | Espesor `[mm]` | Altura `[m]` | Largo `[m]` |
+| **Caso | Radio `[cm]`: | Espesor `[mm]` | Altura `[m]` | Largo `[m]`** |
 |--|--|--|--|--|
-| 1 | :8: | 5 | 4,33 | 5 |
+| 1 | 8 | 5 | 4,33 | 5 |
 | 2 | 15 | 25 | 4,33 | 5 |
 | 3 | 15 | 25 | 10 | 5 |
 | 4 | 20 | 40 | 20 | 5 |
