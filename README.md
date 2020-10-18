@@ -3,7 +3,7 @@
 ### 1. ¿Cuál fue su diseño inicial? ¿Cuánto pesaba? ¿Cómo eran los factores de utilización y las deformaciones?
 
 En primera instancia, debido a la condición que limita el largo de las barras en el vano del puente a solo 6 metros, se decidió crear barras de de `5 [m]` de longitud. Al ser el primer diseño, se utilizó una estructura similar a la de la entrega 4, pero esta no considero las barras diagonales en la base de la estructura.
-El largo de todas las barras se consideró igual, por lo que la altura del puente en primera instancia fue de `H= 4,33 [m]` (Calculado con el teorema de Pitágoras). El espesor de las barras se fijó igual para todas y tuvo un valor inicial de  `t= 5 [mm]`.
+El largo de todas las barras se consideró igual, por lo que la altura del puente en primera instancia fue de `H= 4,33 [m]` (*Calculado con el teorema de Pitágoras*). El espesor de las barras se fijó igual para todas y tuvo un valor inicial de  `t= 5 [mm]`.
 
 A continuación se presenta la estructura del diseño 1, la cual tuvo un peso de `P= 283.837,4099 [N]`.
 
@@ -20,7 +20,7 @@ A continuación se presentan los resultados del diseño número 1:
 ![Gráfica_1_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96386669-ffc55b00-1172-11eb-901b-e82b571c391b.PNG)
 
 Se observa que el primer diseño realizado no cumple con los requisitos mínimos de diseño. Este, al no ser un diseño viable, no permitio poder obtener sus factores de utilización correspondientes.
-En un intento por corregir esto, se generó distintos casos en los que se vario uno o mas parametros de la estructura original. Para poder analizar los acmbios que generaban en ella
+En un intento por corregir esto, se generó distintos casos en los que se varió uno o mas parametros de la estructura original. Para poder analizar los acmbios que generaban en ella
  
 A continuación se presenta una tabla con la variacion de parametros en cada caso:
 
@@ -62,7 +62,7 @@ Para este caso se aumentó el radio de la barra  a `20 [cm]`, su espesor a `40 [
 ![Gráfica_4_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96387061-e4a81a80-1175-11eb-9b75-7f18e9f19e94.PNG)
 
 #### Caso 5
-Para este caso se mantuvieron los parámetros iguales que para el caso 4. Sin embargo, el largo de la barra se re calculo dividiendo el largo del puente por 36 (número de barras). El resultado a pesar de ser decimal (y por ende, no realista con las medidas existentes en el mercado) no cumplio con los requisitos. Por lo que no hubo que ajustar su valor a las solicitudes de la industria. 
+Para este caso se mantuvieron los parámetros iguales que para el caso 4. Sin embargo, el largo de la barra se re calculo dividiendo el largo del puente por 36 (número de barras). El resultado a pesar de ser decimal (*y por ende, no realista con las medidas existentes en el mercado*) no cumplio con los requisitos. Por lo que no hubo que ajustar su valor a las solicitudes de la industria. 
 
 ![Gráfica_5_Estructura](https://user-images.githubusercontent.com/43649125/96387288-50d74e00-1177-11eb-8700-1e73d930bd1d.PNG)
 
