@@ -9,7 +9,7 @@ A continuación se presenta la estructura del diseño 1, la cual tuvo un peso de
 
 ![Gráfica_1_Estructura](https://user-images.githubusercontent.com/43649125/96386665-fb993d80-1172-11eb-80f8-c6391159d7c5.PNG)
 
-Posteriormente se calcularon las tensiones correspondientes para cada combinación y se graficaron las deformaciones de la estructura. Recordar que las barras fueron graficadas en tonalidades, siendo rojo compresión y azul traccion. Junto a lo anterior se revisó la viabilidad del diseño con la función `chequear_diseño`. El requisito para aprobar el diseño propuesto debía cumplir:
+Posteriormente se calcularon las tensiones correspondientes para cada combinación y se graficaron las deformaciones de la estructura. Junto a lo anterior se revisó la viabilidad del diseño con la función `chequear_diseño`. El requisito para aprobar el diseño propuesto debía cumplir:
 
 
 ![CodeCogsEqn](https://user-images.githubusercontent.com/43649125/96386731-72363b00-1173-11eb-94fe-dce5133550ff.gif)
