@@ -157,14 +157,14 @@ Para el diseño 2 se decidió cambiar las medidas de las barras utilizadas para 
 *
 ![Gráfica_7_FU_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96653876-76e42600-1310-11eb-83ef-750d151da80b.PNG)
 
-Se observa que el diseño 2 fue nuevamente insuficiente al momento de cumplir con las condiciones de carga. Los valores de FU tampoco fueron entregados al estar incorrectos
+Se observa que el diseño 2 fue nuevamente insuficiente al momento de cumplir con las condiciones de carga. Los valores de FU tampoco fueron entregados al estar incorrectos.
 
 Buscando optimizar tanto la estructura como las iteraciones para lograr esto, se utilizó la función chequear diseño, y se le agregó un código con la finalidad de que el programa nos entregase un detalle de las barras (en específico el conjunto de nodos que forman una barra) que estaban fallando en cumplir con las combinaciones de carga 1 y 2. 
 
 Gracias a esto se pudo observar que los triángulos del reticulado de ambos bordes del puente estaban siendo muy exigidos al ser las “bases” del arco en el suelo. Se procedió a  rediseñar las barras de ese sector las cuales se dejaron con un radio radio `R= 25 [cm]` y espesor `t= 20 [mm]`.
 
 De la misma forma que en la base del reticulado, se observó que las barras que estaban pensadas como “cables” no estaban siendo de utilidad para sostener el vano del puente, sobre todo al evaluarse la carga viva. Para solucionar esto se decidió abordar la utilidad de los cables y reemplazarlos por barras más concisas. Esto aumentó el peso del puente en comparación con las ideas originales, pero sirvió para cumplir con las condiciones de carga existentes. Observando las barras que no cumplian los requisitos, se observó que los cables diagonales y centrales podían dimensionarse de manera distinta entre sí. 
-De acuerdo a lo anterior se rediseñaron los cables y se les asignó un radio de `R= 18 [cm]` y espesor `t= 18 [mm]`para los cables diagonales, y un radio de `R= 18 [cm]` y espesor `t= 18 [mm]`para los cables centrales.
+De acuerdo a lo anterior se rediseñaron los cables y se les asignó un radio de `R= 18 [cm]` y espesor `t= 18 [mm]`para los cables diagonales, y un radio de `R= 20 [cm]` y espesor `t= 20 [mm]`para los cables centrales.
 
 Finalmente estos cambios lograron que el diseño del puente cumpliera con los requisitos. Los resultados se muestran a continuación.
 
