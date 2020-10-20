@@ -95,3 +95,98 @@ Para este caso se mantuvieron los parámetros iguales que para el caso 4. Sin em
 * 
 ![Gráfica_5_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96387289-52087b00-1177-11eb-90ab-65a575f8bab5.PNG)
 
+
+### 2. Para cada cambio informe qué cambios hizo y porqué, y cómo cambia el peso y los factores de utilización. 
+
+Dada la incompetencia del diseño de reticulado, es que se pensó en un diseño completamente distinto. Se creó un puente con arco de altura `H= 33 [m]`. El arco fue construido con un reticulado triangular y de él se originaron “cables” que sostuvieron el vano del puente.
+
+A continuación se presenta el diseño en `autocad` del puente:
+
+![Diseño puente](https://user-images.githubusercontent.com/43649125/96654119-f5d95e80-1310-11eb-8a59-de34d13c171e.png)
+
+Se observa el arco de reticulado de color blanco, los cables que sostendrían cada nodo del vano de color amarillo y los nodos del arco representados en verde.
+
+El diseño original considero todas las barras de igual radio y espesor, de la misma forma que para los cables. Es decir, las barras de la calle, arco y cables se les asignó las mismas medidas La estructura en su totalidad terminó siendo formada por barras de radio `R= 10 [cm]` y espesor `t= 20 [mm]`. Al correr el primer diseño se obtuvieron los siguientes resultados:
+
+*
+![Gráfica_6_Estructura](https://user-images.githubusercontent.com/43649125/96653787-4d2aff00-1310-11eb-9331-a3ed209d552e.PNG)
+
+
+*
+![Gráfica_6_Tensiones_caso_1 4D](https://user-images.githubusercontent.com/43649125/96653791-50be8600-1310-11eb-89f3-3b7470ca92bc.PNG)
+
+
+*
+![Gráfica_6_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96653796-52884980-1310-11eb-8253-ed374aa76f0f.PNG)
+
+
+*
+![Gráfica_6_FU_caso_1 4D](https://user-images.githubusercontent.com/43649125/96653803-57e59400-1310-11eb-92be-832976639faa.PNG)
+
+
+*
+![Gráfica_6_FU_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96653808-5a47ee00-1310-11eb-9793-597d39c96d92.PNG)
+
+
+Se puede observar que el diseño no cumplió las combinaciones de carga. Debido a esto los valores de FU no fueron entregados, debido a que en diversas barras este valor superaba el valor limite igual a 1.
+
+Para el diseño 2 se decidió cambiar las medidas de las barras utilizadas para los cables. Se planteó un radio `R= 2 [cm]` y espesor `t= 20 [mm]`. Los resultados se presentan a continuación.
+
+*
+![Gráfica_7_Estructura](https://user-images.githubusercontent.com/43649125/96653850-6cc22780-1310-11eb-827e-0bce05b845a4.PNG)
+
+
+*
+![Gráfica_7_Tensiones_caso_1 4D](https://user-images.githubusercontent.com/43649125/96653859-6f248180-1310-11eb-9f75-827fd6bffbec.PNG)
+
+
+*
+![Gráfica_7_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96653864-7186db80-1310-11eb-9a0f-a1bbb8e2a73d.PNG)
+
+
+*
+![Gráfica_7_FU_caso_1 4D](https://user-images.githubusercontent.com/43649125/96653871-7481cc00-1310-11eb-8444-6d6a14c4825f.PNG)
+
+
+*
+![Gráfica_7_FU_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96653876-76e42600-1310-11eb-83ef-750d151da80b.PNG)
+
+Se observa que el diseño 2 fue nuevamente insuficiente al momento de cumplir con las condiciones de carga. Los valores de FU tampoco fueron entregados al estar incorrectos
+
+Buscando optimizar tanto la estructura como las iteraciones para lograr esto, se utilizó la función chequear diseño, y se le agregó un código con la finalidad de que el programa nos entregase un detalle de las barras (en específico el conjunto de nodos que forman una barra) que estaban fallando en cumplir con las combinaciones de carga 1 y 2. 
+
+Gracias a esto se pudo observar que los triángulos del reticulado de ambos bordes del puente estaban siendo muy exigidos al ser las “bases” del arco en el suelo. Se procedió a  rediseñar las barras de ese sector las cuales se dejaron con un radio radio `R= 25 [cm]` y espesor `t= 20 [mm]`.
+
+De la misma forma que en la base del reticulado, se observó que las barras que estaban pensadas como “cables” no estaban siendo de utilidad para sostener el vano del puente, sobre todo al evaluarse la carga viva. Para solucionar esto se decidió abordar la utilidad de los cables y reemplazarlos por barras más concisas. Esto aumentó el peso del puente en comparación con las ideas originales, pero sirvió para cumplir con las condiciones de carga existentes. Observando las barras que no cumplian los requisitos, se observó que los cables diagonales y centrales podían dimensionarse de manera distinta entre sí. 
+De acuerdo a lo anterior se rediseñaron los cables y se les asignó un radio de `R= 18 [cm]` y espesor `t= 18 [mm]`para los cables diagonales, y un radio de `R= 18 [cm]` y espesor `t= 18 [mm]`para los cables centrales.
+
+Finalmente estos cambios lograron que el diseño del puente cumpliera con los requisitos. Los resultados se muestran a continuación.
+
+*
+![Gráfica_8_Estructura](https://user-images.githubusercontent.com/43649125/96653973-9ed38980-1310-11eb-825b-6364529bbd29.PNG)
+
+
+*
+![Gráfica_8_Tensiones_caso_1 4D](https://user-images.githubusercontent.com/43649125/96653981-a135e380-1310-11eb-8240-51e527c7a870.PNG)
+
+
+*
+![Gráfica_8_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96653986-a430d400-1310-11eb-86d7-2145375509df.PNG)
+
+
+*
+![Gráfica_8_FU_caso_1 4D](https://user-images.githubusercontent.com/43649125/96653990-a6932e00-1310-11eb-99c7-9eb46d05f07b.PNG)
+
+
+*
+![Gráfica_8_FU_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96653994-a8f58800-1310-11eb-8f49-6e7f2edca862.PNG)
+
+
+*
+![Gráfica_8_FU_valores_caso_1 4D](https://user-images.githubusercontent.com/43649125/96654025-b579e080-1310-11eb-8735-9bb73e1750a8.PNG)
+
+
+*
+![Gráfica_8_FU_valores_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96654027-b874d100-1310-11eb-9724-25009eeef09e.PNG)
+
+
