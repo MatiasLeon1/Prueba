@@ -108,6 +108,8 @@ Se observa el arco de reticulado de color blanco, los cables que sostendrían ca
 
 El diseño original considero todas las barras de igual radio y espesor, de la misma forma que para los cables. Es decir, las barras de la calle, arco y cables se les asignó las mismas medidas La estructura en su totalidad terminó siendo formada por barras de radio `R= 10 [cm]` y espesor `t= 20 [mm]`. Al correr el primer diseño se obtuvieron los siguientes resultados:
 
+### Caso 6
+
 *
 ![Gráfica_6_Estructura](https://user-images.githubusercontent.com/43649125/96653787-4d2aff00-1310-11eb-9331-a3ed209d552e.PNG)
 
@@ -131,6 +133,8 @@ El diseño original considero todas las barras de igual radio y espesor, de la m
 Se puede observar que el diseño no cumplió las combinaciones de carga. Debido a esto los valores de FU no fueron entregados, debido a que en diversas barras este valor superaba el valor limite igual a 1.
 
 Para el diseño 2 se decidió cambiar las medidas de las barras utilizadas para los cables. Se planteó un radio `R= 2 [cm]` y espesor `t= 20 [mm]`. Los resultados se presentan a continuación.
+
+### Caso 7
 
 *
 ![Gráfica_7_Estructura](https://user-images.githubusercontent.com/43649125/96653850-6cc22780-1310-11eb-827e-0bce05b845a4.PNG)
@@ -161,6 +165,8 @@ De la misma forma que en la base del reticulado, se observó que las barras que 
 De acuerdo a lo anterior se rediseñaron los cables y se les asignó un radio de `R= 18 [cm]` y espesor `t= 18 [mm]`para los cables diagonales, y un radio de `R= 18 [cm]` y espesor `t= 18 [mm]`para los cables centrales.
 
 Finalmente estos cambios lograron que el diseño del puente cumpliera con los requisitos. Los resultados se muestran a continuación.
+
+### Caso 8
 
 *
 ![Gráfica_8_Estructura](https://user-images.githubusercontent.com/43649125/96653973-9ed38980-1310-11eb-825b-6364529bbd29.PNG)
