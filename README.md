@@ -108,7 +108,7 @@ A continuación se presenta el diseño en `autocad` del puente:
 
 Se observa el arco de reticulado de color blanco, los cables que sostendrían cada nodo del vano de color amarillo y los nodos del arco representados en verde.
 
-El diseño original considero todas las barras de igual radio y espesor, de la misma forma que para los cables. Es decir, las barras de la calle, arco y cables se les asignó las mismas medidas La estructura en su totalidad terminó siendo formada por barras de radio `R= 10 [cm]` y espesor `t= 20 [mm]`. Al correr el primer diseño se obtuvieron los siguientes resultados:
+El diseño original considero todas las barras de igual radio y espesor, de la misma forma que para los cables. Es decir, las barras de la calle, arco y cables se les asignó las mismas medidas. La estructura en su totalidad terminó siendo formada por barras de radio `R= 10 [cm]` y espesor `t= 20 [mm]`. Al correr el primer diseño se obtuvieron los siguientes resultados:
 
 ### Caso 6
 
