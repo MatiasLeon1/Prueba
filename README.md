@@ -190,6 +190,8 @@ Finalmente estos cambios lograron que el diseño del puente cumpliera con los re
 ![Gráfica_8_FU_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96653994-a8f58800-1310-11eb-8f49-6e7f2edca862.PNG)
 
 
+Se adjuntan los valores de FU que cumplen en su totalidad la exigencia de valor limite igual a 1.
+
 *
 ![Gráfica_8_FU_valores_caso_1 4D](https://user-images.githubusercontent.com/43649125/96654025-b579e080-1310-11eb-8735-9bb73e1750a8.PNG)
 
