@@ -24,7 +24,7 @@ A continuación se presentan los resultados del diseño número 1:
 ![Gráfica_1_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96386669-ffc55b00-1172-11eb-901b-e82b571c391b.PNG)
 
 Se observa que el primer diseño realizado no cumple con los requisitos mínimos de diseño. Este, al no ser un diseño viable, no permitio poder obtener sus factores de utilización correspondientes.
-En un intento por corregir esto, se generó distintos casos en los que se varió uno o mas parametros de la estructura original. Para poder analizar los acmbios que generaban en ella
+En un intento por corregir esto, se generó distintos casos en los que se varió uno o mas parametros de la estructura original. Para poder analizar los cambios que generaban en ella.
  
 A continuación se presenta una tabla con la variacion de parametros en cada caso:
 
