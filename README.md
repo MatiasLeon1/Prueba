@@ -96,6 +96,8 @@ Para este caso se mantuvieron los parámetros iguales que para el caso 4. Sin em
 ![Gráfica_5_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96387289-52087b00-1177-11eb-90ab-65a575f8bab5.PNG)
 
 
+
+
 ### 2. Para cada cambio informe qué cambios hizo y porqué, y cómo cambia el peso y los factores de utilización. 
 
 Dada la incompetencia del diseño de reticulado, es que se pensó en un diseño completamente distinto. Se creó un puente con arco de altura `H= 33 [m]`. El arco fue construido con un reticulado triangular y de él se originaron “cables” que sostuvieron el vano del puente.
