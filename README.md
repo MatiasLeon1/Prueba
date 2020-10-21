@@ -22,7 +22,7 @@ A continuación se presentan los resultados del diseño número 1:
 * 
 ![Gráfica_1_Tensiones_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96386669-ffc55b00-1172-11eb-901b-e82b571c391b.PNG)
 
-Se observa que el primer diseño realizado no cumple con los requisitos mínimos de diseño. Este, al no ser un diseño viable, no permitio poder obtener sus factores de utilización correspondientes.
+Se observa que el primer diseño realizado no cumple con los requisitos mínimos de diseño. Este, al no ser un diseño viable, generó valores de Factor de Utilización muy superiores a 1 por lo que descartado. El criterio para revisar si efectivamente el diseño iba por buen camino, fue revisar el cumplimiento de las cominaciones de carga y el valor de la deformación.
 En un intento por corregir esto, se generó distintos casos en los que se varió uno o mas parametros de la estructura original. Para poder analizar los cambios que generaban en ella.
  
 A continuación se presenta una tabla con la variacion de parametros en cada caso:
@@ -131,7 +131,7 @@ El diseño original considero todas las barras de igual radio y espesor, de la m
 ![Gráfica_6_FU_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96653808-5a47ee00-1310-11eb-9793-597d39c96d92.PNG)
 
 
-Se puede observar que el diseño no cumplió las combinaciones de carga. Debido a esto los valores de FU no fueron entregados, debido a que en diversas barras este valor superaba el valor limite igual a 1.
+Se puede observar que el diseño no cumplió las combinaciones de carga. Debido a esto los valores de FU no fueron entregados, debido a que en diversas barras este valor superaba el valor limite igual a 1. Es importante recalcar que debido a la cantidad de barras, visualizar el factor se torna engorroso, razon por la que se omitirá su visualizacion hasta cumplir el requisito de los valores menores a 1.
 
 Para el diseño 2 se decidió cambiar las medidas de las barras utilizadas para los cables. Se planteó un radio `R= 2 [cm]` y espesor `t= 20 [mm]`. Los resultados se presentan a continuación.
 
