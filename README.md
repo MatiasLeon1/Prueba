@@ -204,3 +204,7 @@ Se adjuntan los valores de FU que cumplen en su totalidad la exigencia de valor 
 
 Finalmente se procedio a optimizar la estructura. Esto fue realizado a mano, iterando los valores de los radios y los espesores de las barras de la estructura.
 Los resultados finales fueron:
+
+*
+![WhatsApp Image 2020-10-20 at 23 42 36](https://user-images.githubusercontent.com/43649125/96666656-fb916d00-132d-11eb-8d50-85003cecbb18.jpeg)
+
