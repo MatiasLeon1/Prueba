@@ -202,3 +202,5 @@ Se adjuntan los valores de FU que cumplen en su totalidad la exigencia de valor 
 ![Gráfica_8_FU_valores_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96654027-b874d100-1310-11eb-9724-25009eeef09e.PNG)
 
 
+Finalmente se procedio a optimizar la estructura. Esto fue realizado a mano, iterando los valores de los radios y los espesores de las barras de la estructura.
+Los resultados finales fueron:
