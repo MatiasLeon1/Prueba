@@ -3,8 +3,7 @@
 ### 1. ¿Cuál fue su diseño inicial? ¿Cuánto pesaba? ¿Cómo eran los factores de utilización y las deformaciones?
 
 En primera instancia, debido a la condición que limita el largo de las barras en el vano del puente a solo 6 metros, se decidió crear barras de de `5 [m]` de longitud. Al ser el primer diseño, se utilizó una estructura similar a la de la entrega 4, pero esta no considero las barras diagonales en la base de la estructura.
-El largo de todas las barras se consideró igual, por lo que la altura del puente en primera instancia fue de `H= 4,33 [m]` (*Calculado con el teorema de Pitágoras*). El espesor de las barras se fijó igual para todas y tuvo un valor inicial de  `t= 5 [mm]`.
-
+El largo de todas las barras se consideró igual, por lo que la altura del puente en primera instancia fue de `H= 4,33 [m]` (*Calculado con el teorema de Pitágoras*). El espesor de las barras y el radio se fijó igual para todas y tuvo un valor inicial de  `t= 5 [mm]` y `R= 8 [cm]`.
 A continuación se presenta la estructura del diseño 1, la cual tuvo un peso de `P= 283.837,4099 [N]`.
 
 ![Gráfica_1_Estructura](https://user-images.githubusercontent.com/43649125/96386665-fb993d80-1172-11eb-80f8-c6391159d7c5.PNG)
@@ -155,7 +154,10 @@ Para el diseño 2 se decidió cambiar las medidas de las barras utilizadas para 
 
 
 *
-![Gráfica_7_FU_caso_1 2D+1 6L](https://user-images.githubusercontent.com/43649125/96653876-76e42600-1310-11eb-83ef-750d151da80b.PNG)
+
+![Gráfica_7_FU_caso_1 2D+1 6L (1)](https://user-images.githubusercontent.com/43649125/96660821-fa0d7800-1320-11eb-83f4-ab24e76a95b0.PNG)
+
+
 
 Se observa que el diseño 2 fue nuevamente insuficiente al momento de cumplir con las condiciones de carga. Los valores de FU tampoco fueron entregados al estar incorrectos.
 
